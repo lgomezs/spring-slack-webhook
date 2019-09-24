@@ -2,7 +2,7 @@ Webhook con Spring Boot
 ==========================
 
 # Webhook
-==========================
+
 Un Webhook es una mecanismo que permite ser notificado cuando un evento ha ocurrido en tu aplicacion o la de un tercero. Es básicamente una solicitud POST que se envía a una URL específica. Esa URL está configurada para recibir el cuerpo de la solicitud POST y procesarla de alguna manera.
 Utilizada generalmente para cuando se producen eventos en tu aplicativo y poder comunicar al grupo de slack sobre sobre estos eventos.
 
