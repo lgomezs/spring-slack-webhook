@@ -1,0 +1,10 @@
+version: '3'
+services:
+  slack-webhook:
+    image: "app-slack-webhook"
+    build:
+      context: ../../../
+      dockerfile: ./src/main/docker/Dockerfile
+    ports:
+      - 8085:8085
+
